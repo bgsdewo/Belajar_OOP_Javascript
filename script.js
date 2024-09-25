@@ -256,3 +256,38 @@
 // document.body.style.backgroundColor = skyColor.opposite();
 // document.body.style.backgroundColor = skyColor.fullySaturated();
 // console.log(skyColor.fullySaturated());
+
+//topic Penjelasan Oop, Extend Dan Fungsi Super
+// class Peliharaan {
+//   // parent class/object
+//   constructor(name, age) {
+//     console.log("parent executed");
+//     this.name = name;
+//     this.age = age;
+//   }
+//   makan() {
+//     return `${this.name} lagi makan`;
+//   }
+// }
+
+// class Kucing extends Peliharaan {
+//   // child class/object
+//   constructor(name, age, lives) {
+//     console.log("child executed");
+//     super(name, age);
+//     this.lives = lives;
+//   }
+//   meong() {
+//     return "Meeonng!";
+//   }
+// }
+
+// class Anjing extends Peliharaan {
+//   // child class/object
+//   gongong() {
+//     return "guk guk!!";
+//   }
+// }
+
+// const kucing = new Kucing("Babul", 4, 9);
+// console.log(kucing);
